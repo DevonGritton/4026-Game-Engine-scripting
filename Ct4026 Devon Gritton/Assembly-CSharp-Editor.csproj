@@ -125,22 +125,22 @@
     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -373,41 +373,41 @@
     <Reference Include="UnityEditor.AppleTV.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
-    </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
-    </Reference>
-    <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderEditor-Unity5">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/s1904477/Desktop/ct4026-assigment1-DevonGritton/Ct4026 Devon Gritton/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor-Unity5">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
