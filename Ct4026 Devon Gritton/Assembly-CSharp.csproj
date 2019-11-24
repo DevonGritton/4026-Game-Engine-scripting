@@ -251,25 +251,25 @@
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -455,28 +455,28 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Ct4026 Devon Gritton/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/tooth/OneDrive/Documents/GitHub/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
