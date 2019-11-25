@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class OptionMenu : MonoBehaviour
 {
     Resolution[] resolutions;
-
+    float rbg = 0.5f;
     public Dropdown ResDrop;
     private void Start()
     {
@@ -39,7 +39,8 @@ public class OptionMenu : MonoBehaviour
     }
     public void setBrightness (float brightness)
     {
-
+            rbg = GUI.HorizontalSlider (new Rect (Screen.width/2 - 50, 90, 100, 30), rbg, 0f, 1.0f);
+            RenderSettings.ambientLight = new Color(rbg, rbg, rbg, 1);
         Debug.Log(brightness);
     }
     public void fullscreen(bool isFull)

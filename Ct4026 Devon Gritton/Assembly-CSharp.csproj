@@ -184,6 +184,7 @@
     <Compile Include="Assets\Scripts\Lift Scripts\LiftController.cs" />
     <Compile Include="Assets\Scripts\LiftCollider1.cs" />
     <Compile Include="Assets\Scripts\LiftController1.cs" />
+    <Compile Include="Assets\Scripts\LightBob.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\OptionMenu.cs" />
     <Compile Include="Assets\Scripts\Pickups.cs" />
