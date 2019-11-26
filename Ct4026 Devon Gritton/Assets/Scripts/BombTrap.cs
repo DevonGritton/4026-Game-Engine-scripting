@@ -22,31 +22,20 @@ public class BombTrap : MonoBehaviour
             Explode();
         }
     }
-    private void OnCollisionEnter(Collision collision)
+    //private void OnCollisionEnter(Collision collision)
+   // {
+     //       if (other.gameObject.tag == "Player")
+    //        {
+    //        Fuzeon = true;
+    //    }
+   // }
+    private void OnTriggerEnter(Collider other)
     {
-            if (collision.gameObject.tag == "Player")
-            {
+        if (other.gameObject.tag == "Player")
+        {
             Fuzeon = true;
         }
     }
-   // private void OnTriggerEnter(Collider other)
-   // {
-      //  if (BombTimer <= 0)
-      //  {
-
-
-       //     Collider[] colliders = Physics.OverlapSphere(transform.position, ExplosionRadius);
-      //      foreach (Collider collider in colliders)
-       //     {
-      //          Rigidbody rigid = collider.GetComponent<Rigidbody>();
-      //          if (rigid != null)
-      //          {
-      //              rigid.AddExplosionForce(ExplosionStrength, transform.position, ExplosionRadius, 0, ForceMode.Impulse);
-      //          }
-      //      }
-    //        Destroy(gameObject);
-    //    }
-  //  }
     void Explode()
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, ExplosionRadius);

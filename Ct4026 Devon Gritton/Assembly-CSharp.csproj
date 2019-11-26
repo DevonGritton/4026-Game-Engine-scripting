@@ -188,6 +188,7 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\OptionMenu.cs" />
     <Compile Include="Assets\Scripts\Pickups.cs" />
+    <Compile Include="Assets\Scripts\PlateTrap.cs" />
     <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\SplashSequence.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
