@@ -8,35 +8,56 @@ public class BombTrap : MonoBehaviour
     public float ExplosionRadius = 5.0f;
     public float BombTimer = 3.0f;
     float countdown;
+    bool Fuzeon = false;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Fuzeon == true)
+        {
+            BombTimer -= Time.deltaTime;
+        }
+        if (BombTimer <= 0)
+        {
+            Explode();
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
             if (collision.gameObject.tag == "Player")
             {
-            BombTimer -= Time.deltaTime;
+            Fuzeon = true;
         }
     }
-    private void OnTriggerEnter(Collider other)
+   // private void OnTriggerEnter(Collider other)
+   // {
+      //  if (BombTimer <= 0)
+      //  {
+
+
+       //     Collider[] colliders = Physics.OverlapSphere(transform.position, ExplosionRadius);
+      //      foreach (Collider collider in colliders)
+       //     {
+      //          Rigidbody rigid = collider.GetComponent<Rigidbody>();
+      //          if (rigid != null)
+      //          {
+      //              rigid.AddExplosionForce(ExplosionStrength, transform.position, ExplosionRadius, 0, ForceMode.Impulse);
+      //          }
+      //      }
+    //        Destroy(gameObject);
+    //    }
+  //  }
+    void Explode()
     {
-        if (BombTimer <= 0)
+        Collider[] colliders = Physics.OverlapSphere(transform.position, ExplosionRadius);
+        foreach (Collider collider in colliders)
         {
-
-
-            Collider[] colliders = Physics.OverlapSphere(transform.position, ExplosionRadius);
-            foreach (Collider collider in colliders)
+            Rigidbody rigid = collider.GetComponent<Rigidbody>();
+            if (rigid != null)
             {
-                Rigidbody rigid = collider.GetComponent<Rigidbody>();
-                if (rigid != null)
-                {
-                    rigid.AddExplosionForce(ExplosionStrength, transform.position, ExplosionRadius, 0, ForceMode.Impulse);
-                }
+                rigid.AddExplosionForce(ExplosionStrength, transform.position, ExplosionRadius, 0, ForceMode.Impulse);
             }
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 }

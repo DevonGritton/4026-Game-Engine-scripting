@@ -15,7 +15,7 @@ public class ScoreScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Schekles ; " + scoreValue.ToString();
+        ScoreText.text = scoreValue.ToString();
     }
 
 }
