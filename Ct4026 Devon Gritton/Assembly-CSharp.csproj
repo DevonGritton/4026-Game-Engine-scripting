@@ -189,7 +189,9 @@
     <Compile Include="Assets\Scripts\OptionMenu.cs" />
     <Compile Include="Assets\Scripts\Pickups.cs" />
     <Compile Include="Assets\Scripts\PlateTrap.cs" />
+    <Compile Include="Assets\Scripts\SaveSettings].cs" />
     <Compile Include="Assets\Scripts\ScoreScript.cs" />
+    <Compile Include="Assets\Scripts\SlideDoorController.cs" />
     <Compile Include="Assets\Scripts\SplashSequence.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
     <None Include="Assets\Downloaded assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
