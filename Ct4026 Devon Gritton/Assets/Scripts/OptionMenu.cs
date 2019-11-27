@@ -7,6 +7,7 @@ public class OptionMenu : MonoBehaviour
     Resolution[] resolutions;
     float rgb = 0.5f;
     public Dropdown ResDrop;
+    float UserBright;
     private void Start()
     {
         resolutions = Screen.resolutions;
@@ -42,6 +43,8 @@ public class OptionMenu : MonoBehaviour
         
             RenderSettings.ambientLight = new Color(brightness, brightness, brightness, 1);
         Debug.Log(brightness);
+
+        PlayerPrefs.SetFloat("UserBrightness", brightness);
     }
     public void fullscreen(bool isFull)
     {

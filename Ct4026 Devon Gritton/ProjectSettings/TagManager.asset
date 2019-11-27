@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Latch
   - Latch2
+  - TeleportDestination
   layers:
   - Default
   - TransparentFX
