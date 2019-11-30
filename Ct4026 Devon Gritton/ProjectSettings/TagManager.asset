@@ -7,6 +7,9 @@ TagManager:
   - Latch
   - Latch2
   - TeleportDestination
+  - Dart
+  - Enviroment
+  - Target
   layers:
   - Default
   - TransparentFX

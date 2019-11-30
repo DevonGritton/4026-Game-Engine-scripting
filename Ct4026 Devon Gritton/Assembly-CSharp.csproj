@@ -179,6 +179,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\BombTrap.cs" />
+    <Compile Include="Assets\Scripts\DartProjectile.cs" />
+    <Compile Include="Assets\Scripts\DartTurret.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\Lift Scripts\LiftCollider.cs" />
     <Compile Include="Assets\Scripts\Lift Scripts\LiftController.cs" />
