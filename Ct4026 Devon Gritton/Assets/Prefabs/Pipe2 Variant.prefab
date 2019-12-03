@@ -18,7 +18,6 @@ MonoBehaviour:
   firepoint: {fileID: 4448924221800197761}
   fireRate: 0.5
   firecountdown: 0
-  target: {fileID: 0}
   range: 80
   targetTag: Target
 --- !u!1 &8849305120275366465
@@ -45,7 +44,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8849305120275366465}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.48, y: 2.52, z: -0.91}
+  m_LocalPosition: {x: -0.48, y: 3.2, z: -0.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7822521695182976057}
@@ -61,22 +60,22 @@ PrefabInstance:
     - target: {fileID: 8875975274560298683, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}
       propertyPath: m_Name
-      value: Pipe2 Variant
+      value: Pipe2 Variant (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8875975274560298657, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -68.88
+      value: 14.218002
       objectReference: {fileID: 0}
     - target: {fileID: 8875975274560298657, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 44.49
+      value: 3.4869995
       objectReference: {fileID: 0}
     - target: {fileID: 8875975274560298657, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 79.37
+      value: -0.017000198
       objectReference: {fileID: 0}
     - target: {fileID: 8875975274560298657, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}

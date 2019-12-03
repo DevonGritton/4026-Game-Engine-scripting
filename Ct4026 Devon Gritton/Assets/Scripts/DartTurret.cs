@@ -16,6 +16,7 @@ public class DartTurret : MonoBehaviour
     private Transform target;
     public float range = 80f;
     public string targetTag = "Target";
+    public Transform FaceToRotate;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,14 @@ public class DartTurret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (target == null)
+            return;
+        Vector3 face = target.position = transform.position;
+        Quaternion faceRotation = Quaternion.LookRotation(face);
+        Vector3 rotate = faceRotation.eulerAngles;
+        FaceToRotate.rotation = Quaternion.Euler(rotate.x, 0f, 0f);
+
+
         firecountdown -= Time.deltaTime;
         if (firecountdown <= 0)
         {
@@ -52,6 +61,10 @@ public class DartTurret : MonoBehaviour
         if (nearestTarget != null && shortestDistance <= range)
         {
             target = nearestTarget.transform;
+        }
+        else
+        {
+            target = null;
         }
 
 
