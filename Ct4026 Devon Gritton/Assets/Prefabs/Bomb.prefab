@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7533384840295201411}
   - component: {fileID: 7533384840295201410}
   - component: {fileID: 694720478}
-  - component: {fileID: 1128647846}
+  - component: {fileID: 1780280693}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -59223,9 +59223,9 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Size: {x: 1, y: 1.2, z: 1}
   m_Center: {x: 0.26286554, y: -0.3253254, z: 0}
---- !u!114 &1128647846
+--- !u!114 &1780280693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59240,3 +59240,5 @@ MonoBehaviour:
   ExplosionStrength: 30
   ExplosionRadius: 5
   BombTimer: 3
+  ExplosionEffect: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
+    type: 3}

@@ -12,6 +12,8 @@ TagManager:
   - Target
   - Coin
   - Health
+  - Room1Coins
+  - Barrels
   layers:
   - Default
   - TransparentFX

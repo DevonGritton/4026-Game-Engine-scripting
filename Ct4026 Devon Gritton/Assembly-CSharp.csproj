@@ -186,6 +186,9 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\BarrelOffSwitch.cs" />
+    <Compile Include="Assets\Scripts\BarrelScript.cs" />
+    <Compile Include="Assets\Scripts\BarrelSpawner.cs" />
     <Compile Include="Assets\Scripts\BarrierRaise.cs" />
     <Compile Include="Assets\Scripts\BombTrap.cs" />
     <Compile Include="Assets\Scripts\DartProjectile.cs" />
@@ -281,17 +284,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/Users/s1904477/Desktop/4026-Game-Engine-scripting/Ct4026 Devon Gritton/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

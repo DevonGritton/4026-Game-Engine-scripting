@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PlateTrap : MonoBehaviour
 {
-    GameObject Trap;
-    GameObject Trap2;
+    public GameObject Trap;
+    public GameObject Trap2;
+    public GameObject Coins1;
     // Start is called before the first frame update
     void Start()
     {
-        Trap = GameObject.FindWithTag("Latch");
-        Trap2 = GameObject.FindWithTag("Latch2");
+
+        Coins1.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class PlateTrap : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            
+            Coins1.SetActive(true);
             Destroy(Trap);
             Destroy(Trap2);
         }

@@ -34,12 +34,12 @@ public class Pickups : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "Coin")
+        if (gameObject.tag == "Coin" && other.gameObject.tag == "Player")
         {
             ScoreScript.scoreValue += 1;
             Destroy(gameObject);
         }
-        if (gameObject.tag == "Health")
+        if (gameObject.tag == "Health" && other.gameObject.tag =="Player")
         {
             HealthScript.health += 1;
             Destroy(gameObject);

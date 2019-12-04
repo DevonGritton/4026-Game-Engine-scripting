@@ -330,25 +330,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7506357033964844196, guid: 4a7eda550a3e1ca4788b282d813666ee,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7506357033964844192, guid: 4a7eda550a3e1ca4788b282d813666ee,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 45065042563537404, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 45065041927783044, guid: 4a7eda550a3e1ca4788b282d813666ee,
+        type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
+        type: 3}
     - target: {fileID: 4248832584175605843, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
       propertyPath: m_Radius
-      value: 1.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4248832584175605843, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
@@ -359,6 +355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: -0.3253254
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506357033964844192, guid: 4a7eda550a3e1ca4788b282d813666ee,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7eda550a3e1ca4788b282d813666ee, type: 3}
@@ -455,11 +456,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DropBomb
       objectReference: {fileID: 0}
-    - target: {fileID: 7506357033964844207, guid: 4a7eda550a3e1ca4788b282d813666ee,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7506357033964844197, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,16 +511,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7506357033964844196, guid: 4a7eda550a3e1ca4788b282d813666ee,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7506357033964844192, guid: 4a7eda550a3e1ca4788b282d813666ee,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 45065042563537404, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
       propertyPath: m_IsTrigger
@@ -540,10 +526,16 @@ PrefabInstance:
       propertyPath: ExplosionRadius
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 45065041927783044, guid: 4a7eda550a3e1ca4788b282d813666ee,
+        type: 3}
+      propertyPath: ExplosionEffect
+      value: 
+      objectReference: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
+        type: 3}
     - target: {fileID: 4248832584175605843, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
       propertyPath: m_Radius
-      value: 1.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4248832584175605843, guid: 4a7eda550a3e1ca4788b282d813666ee,
         type: 3}
@@ -554,6 +546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: -0.3253254
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506357033964844192, guid: 4a7eda550a3e1ca4788b282d813666ee,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7eda550a3e1ca4788b282d813666ee, type: 3}
