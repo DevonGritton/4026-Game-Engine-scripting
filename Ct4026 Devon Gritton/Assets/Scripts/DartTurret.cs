@@ -8,12 +8,12 @@ public class DartTurret : MonoBehaviour
     public GameObject m_goDartPrefab;
 
     [SerializeField]
-    private float m_fDartSpeed = 100.0f;
+    private float m_fDartSpeed = 50.0f;
 
     public Transform firepoint;
     public float fireRate = 0.5f;
     public float firecountdown = 1f;
-    private Transform target;
+    public Transform target;
     public float range = 80f;
     public string targetTag = "Target";
     public Transform FaceToRotate;
@@ -28,7 +28,7 @@ public class DartTurret : MonoBehaviour
     {
         if (target == null)
             return;
-        Vector3 face = target.position = transform.position;
+        Vector3 face = target.position - transform.position;
         Quaternion faceRotation = Quaternion.LookRotation(face);
         Vector3 rotate = faceRotation.eulerAngles;
         FaceToRotate.rotation = Quaternion.Euler(rotate.x, 0f, 0f);
@@ -72,13 +72,16 @@ public class DartTurret : MonoBehaviour
     private void ShootBullet()
     {
         GameObject goSpawnedDart = Instantiate(m_goDartPrefab, firepoint.position, firepoint.rotation);
-        goSpawnedDart.transform.position = transform.position;
-        goSpawnedDart.transform.Translate(transform.forward);
+        //goSpawnedDart.transform.position = transform.position;
+        //goSpawnedDart.transform.Translate(transform.forward);
 
         Rigidbody rbDartbody = goSpawnedDart.GetComponent<Rigidbody>();
         if (rbDartbody != null)
         {
-            rbDartbody.velocity = transform.forward * m_fDartSpeed;
+            Vector3 dirToTarget =  target.position - rbDartbody.position;
+            dirToTarget.Normalize();
+
+            rbDartbody.velocity = dirToTarget * m_fDartSpeed;
         }
         Destroy(goSpawnedDart, 1.0f);
     }

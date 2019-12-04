@@ -4,22 +4,46 @@ using UnityEngine;
 
 public class Pickups : MonoBehaviour
 {
+    bool coin = false;
+    bool heart = false;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        if (gameObject.tag == "Coin")
+        {
+            coin = true;
+        }
+        if (gameObject.tag == "Health")
+        {
+            heart = true;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(Time.deltaTime *0, 0, 10));
+        if (coin)
+        {
+            transform.Rotate(new Vector3(Time.deltaTime * 0, 0, 10));
+        }
+        if (heart)
+        {
+            transform.Rotate(new Vector3(Time.deltaTime * 0, 10, 0));
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
-        ScoreScript.scoreValue += 1;
-        Destroy (gameObject);
+        if (gameObject.tag == "Coin")
+        {
+            ScoreScript.scoreValue += 1;
+            Destroy(gameObject);
+        }
+        if (gameObject.tag == "Health")
+        {
+            HealthScript.health += 1;
+            Destroy(gameObject);
+        }
        // if (other.gameObject.CompareTag("Player"))
        // {
         //        other.GetComponent<ScoreScript>().scoreValue++;

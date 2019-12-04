@@ -15,12 +15,19 @@ public class DartProjectile : MonoBehaviour
     {
         
     }
-
+    
     private void OnCollisionEnter(Collision other)
     {
         if(other.collider.CompareTag("Enviroment"))
         {
             Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            HealthScript.health -= 1;
         }
     }
 }
