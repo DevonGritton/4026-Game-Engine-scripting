@@ -11,8 +11,8 @@ public class DartTurret : MonoBehaviour
     private float m_fDartSpeed = 50.0f;
 
     public Transform firepoint;
-    public float fireRate = 0.5f;
-    public float firecountdown = 1f;
+    public float fireRate;
+    public float firecountdown;
     public Transform target;
     public float range = 80f;
     public string targetTag = "Target";
@@ -21,6 +21,8 @@ public class DartTurret : MonoBehaviour
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        firecountdown = (Random.Range(1.0f, 5.0f));
+        fireRate = (Random.Range(1.0f, 5.0f));
     }
 
     // Update is called once per frame
@@ -42,6 +44,7 @@ public class DartTurret : MonoBehaviour
         }
         if (target == null)
             return;
+        
     }
     void UpdateTarget ()
     {
