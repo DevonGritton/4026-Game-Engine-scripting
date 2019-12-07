@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class LiftCollider1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     private void OnTriggerEnter(Collider other)
     {
         other.transform.parent = gameObject.transform;

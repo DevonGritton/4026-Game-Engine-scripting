@@ -1,53 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;// used to navigate across scenes
 
 public class PauseMenu : MonoBehaviour
 {
+
     public static bool GamePause = false;
     public GameObject PauseMenuelements;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    // Update is called once per frame.
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))//detects if the user presses the escape button.
         {
             if (GamePause)
             {
-                Resume();
+                Resume();// calls the resume function if the game is paused while pressing escape button.
             }
             else
             {
-                Pause();
+                Pause();// calls the pause function if the game is running while pressing escape button.
             }
         }
     }
-    public void Resume()
+    public void Resume()// this function when called wil lclose the pause menu and resume the game.
     {
-        PauseMenuelements.SetActive(false);
-        Time.timeScale = 1f;
-        GamePause = false;
+        PauseMenuelements.SetActive(false);// deactivated the pause menu.
+        Time.timeScale = 1f;//Sets the time to default speed.
+        GamePause = false;// sets the pause variable to false to call the appropriette functions when escape is pressed again
     }
-    void Pause()
+    void Pause()// This function will pause the current game and enable the pause menu
     {
-        PauseMenuelements.SetActive(true);
-        Time.timeScale = 0f;
-        GamePause = true;
+        PauseMenuelements.SetActive(true);//activates the pause menu elements.
+        Time.timeScale = 0f;//freezes time so the game isnt playing in the background 
+        GamePause = true;// sets the pause variable to true to call the appropriette functions when escape is pressed again
     }
     public void Quit()
     {
-        Time.timeScale = 1f;
-        Application.Quit();
+        Application.Quit();//When called this function will quit the application
     }
     public void Menu()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1f;// sets the timescale to normal to avoid the game being frozen when going in and out of the menu
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);// navigates backwards to the main menu
     }
 }

@@ -3,31 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DartProjectile : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
+{  
     private void OnCollisionEnter(Collision other)
     {
         if(other.collider.CompareTag("Enviroment"))
         {
-            Destroy(gameObject);
+            Destroy(gameObject);// if the game object collides with the enviroment tage destroy it 
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            HealthScript.health -= 1;
+            HealthScript.health -= 1; // if the player enters the darts trigger then they will lose 1 health
         }
     }
 }

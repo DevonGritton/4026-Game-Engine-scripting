@@ -13,7 +13,7 @@ public class SlideDoorController : MonoBehaviour
 
     void OnMouseOver()
     {
-        buttonPressed = true;
+        buttonPressed = true;//sets the boolean to true so a message prompt will appear when the players mouse over the trigger collider 
     }
 
     void OnMouseDown()
@@ -24,11 +24,11 @@ public class SlideDoorController : MonoBehaviour
 
     void OnMouseExit()
     {
-        buttonPressed = false;
+        buttonPressed = false;// when the player hovers away from the designated obejc the prompt will disapear since the boolean is set to false 
     }
     void OnGUI()
     {
-        if (buttonPressed == true)
+        if (buttonPressed == true)// if the button variable is true this will create a message prompt box for the player to click the button
         {
             GUI.Box(
                 new Rect(

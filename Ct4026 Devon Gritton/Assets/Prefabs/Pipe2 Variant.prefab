@@ -17,7 +17,6 @@ MonoBehaviour:
   m_fDartSpeed: 100
   firepoint: {fileID: 4448924221800197761}
   fireRate: 0.5
-  firecountdown: 2
   target: {fileID: 0}
   range: 200
   targetTag: Target
@@ -62,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 8875975274560298683, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}
       propertyPath: m_Name
-      value: Pipe2 Variant (3)
+      value: Pipe2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8875975274560298657, guid: 445948973b99af74d9e9a1d784ab0d11,
         type: 3}

@@ -10,21 +10,15 @@ public class PlateTrap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        Coins1.SetActive(false);
+        Coins1.SetActive(false);// deactivates the gameobject assign to teh coins1 variable
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")// if the playe tag enters the collider for this object then
         {
-            Coins1.SetActive(true);
-            Destroy(Trap);
+            Coins1.SetActive(true);//activate the coins game object
+            Destroy(Trap);// and destroy the trap gameobjects 
             Destroy(Trap2);
         }
     }

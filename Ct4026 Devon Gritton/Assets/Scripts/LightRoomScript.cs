@@ -5,43 +5,22 @@ using UnityEngine;
 public class LightRoomScript : MonoBehaviour
 {
     public Light ColoredLights;
-    Color activated = Color.green;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    Color activated = Color.green;//assigns a variable that will store a colour chaneg to green for an assigned light 
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")// if an object with the player tag enters the trigger collider perform the next set of steps 
         {
-            if(ColoredLights.color != activated)
+            if(ColoredLights.color != activated)//if the assigned light is not green then perform the next steps
             {
-                ColoredLights.color = activated;
-                LightRoomCounter.counter += 1;
+                ColoredLights.color = activated;// sets the light colour to green
+                LightRoomCounter.counter += 1;// increments the light room counter by 1
             }
 
             if (ColoredLights.color == activated)
             {
-                return;
+                return;// if the light is already green do nothing
             }
         }
-        if (ColoredLights.color == activated)
-        {
-
-        }
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       //if (Activated)
-       // {
-       //     counter += 1;
-       //     Debug.Log(counter);
-       // }
     }
 }

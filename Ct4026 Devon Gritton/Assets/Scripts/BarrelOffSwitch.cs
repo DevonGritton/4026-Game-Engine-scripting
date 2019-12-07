@@ -8,24 +8,18 @@ public class BarrelOffSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
-    
-        Barrels.SetActive(true);
+        Barrels.SetActive(true);//On start the assigned barrel spawner vaibles is activated
     }
+    //On trigger is called when the player enters the trigger collider for the plate
     private void OnTriggerEnter(Collider other)
     {
         {
             if (other.gameObject.tag == "Player")
             {
-                Barrels.SetActive(false);
+                Barrels.SetActive(false);// disables the assigned gameobject so that when the player interacts with the plate
+                                        //It will disable the barrel spawner
                 
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

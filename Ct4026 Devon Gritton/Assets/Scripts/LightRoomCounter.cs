@@ -16,22 +16,21 @@ public class LightRoomCounter : MonoBehaviour
     }
     void Prize()
     {
-        if (counter >= 30)
+        if (counter >= 30)// when the counter reaches 30 and all lights have been turned green
         {
-            Destroy(Latch1);
+            Destroy(Latch1);//destroys teh following gameobjects
             Destroy(Latch2);
             Destroy(plates);
-            Light.SetActive(true);
+            Light.SetActive(true);//activates the assigned light variable 
         }
     }
     void Increment()
     {
-        counter += 1;
-
+        counter += 1;// used to store the amount of green lights there are in a scene 
     }
     // Update is called once per frame
     void Update()
     {
-        Prize();
+        Prize();// calls the prize function every frame
     }
 }

@@ -5,26 +5,25 @@ using UnityEngine;
 public class LavaScript : MonoBehaviour
 {
     public static bool lavaburn;
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
-        lavaburn = false;
+        lavaburn = false;// at program start sets the boolean to false avoid the player taking damage upon game start.
     }
 
-    // Update is called once per frame
+    // Update is called once per frame.
     void Update()
     {
         if (lavaburn)
         {
-            HealthScript.health -= 1;
+            HealthScript.health -= 1;// reduces health value by one every frame if the lava boolean is set to true.
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")// When the player enters the trigger collider set the boolean to true which will initiate the damage every frame
         {
             lavaburn = true;
-            Debug.Log(lavaburn);
         }
     }
 }

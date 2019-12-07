@@ -11,29 +11,23 @@ public class SplashSequence : MonoBehaviour
     {
         if (SceneNo == 0)
         {
-            StartCoroutine(ToSplash2());
+            StartCoroutine(ToSplash2());//On start if the player is on the first scene it will begin the sequence to the next scene
         }
         if (SceneNo == 1)
         {
-            StartCoroutine(ToMainMenu());
+            StartCoroutine(ToMainMenu());//On start if the player is on the first scene it will begin the sequence to the next scene
         }
     }
     IEnumerator ToSplash2()
     {
         yield return new WaitForSeconds (5);
-        SceneNo = 1;
+        SceneNo = 1;//after 5 seconds the next splash will appear 
         SceneManager.LoadScene(1);
     }
     IEnumerator ToMainMenu()
     {
         yield return new WaitForSeconds(5);
-        SceneNo = 2;
+        SceneNo = 2;//after 5 seconds the next splash will appear 
         SceneManager.LoadScene(2);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

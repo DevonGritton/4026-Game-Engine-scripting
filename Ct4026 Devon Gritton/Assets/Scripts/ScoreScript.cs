@@ -9,13 +9,13 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText = GetComponent<Text>();
+        ScoreText = GetComponent<Text>();// assigns scoretext  to a text component
     }
 
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = scoreValue.ToString();
+        ScoreText.text = scoreValue.ToString();// apends the value of the score variable to the assigned text object in the HUD
     }
 
 }
