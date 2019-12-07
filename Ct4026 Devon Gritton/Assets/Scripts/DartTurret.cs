@@ -12,7 +12,7 @@ public class DartTurret : MonoBehaviour
 
     public Transform firepoint;
     public float fireRate;
-    public float firecountdown;
+    public static float firecountdown;
     public Transform target;
     public float range = 80f;
     public string targetTag = "Target";

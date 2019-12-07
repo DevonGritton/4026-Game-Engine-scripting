@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7506357033964844194}
   - component: {fileID: 7506357033964844193}
   - component: {fileID: 7506357033964844192}
-  - component: {fileID: 45065042563537404}
   - component: {fileID: 45065041927783044}
   - component: {fileID: 9078695707119950277}
   - component: {fileID: 4248832584175605843}
@@ -59211,22 +59210,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!65 &45065042563537404
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7506357033964844207}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1.2, z: 1}
-  m_Center: {x: 0.26286554, y: -0.3253254, z: 0}
 --- !u!114 &45065041927783044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59242,6 +59228,7 @@ MonoBehaviour:
   ExplosionStrength: 30
   ExplosionRadius: 5
   BombTimer: 1
+  ExplosionEffect: {fileID: 0}
 --- !u!54 &9078695707119950277
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -59269,5 +59256,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5
-  m_Center: {x: 0.2628655, y: -0.32532537, z: 0}
+  m_Radius: 1.4
+  m_Center: {x: 0.26286554, y: -0.3253254, z: 0}
