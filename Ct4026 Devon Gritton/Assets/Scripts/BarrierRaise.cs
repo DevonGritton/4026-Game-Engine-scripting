@@ -23,6 +23,7 @@ public class BarrierRaise : MonoBehaviour
             BarrierObject.GetComponent<Animator>().SetBool("barrierIsUp", barrierIsUp);// Retrieves teh animator components setting the barrier is up bool to true tirggering the next stage of the animation to raise the barrier 
             DartTurret.firecountdown = 10000000000;// when the player enters the collider the turret fire delay will be increased to 10000000000 to avoid turrets firing when the barrier has been raised 
             coinSpawning.SetActive(true);// activates the coin spawners 
+            WinMessage.SetActive(true);// displays the win message
         }
     }
     private void OnTriggerExit(Collider other)//called when something exits the trigger collider
@@ -31,7 +32,6 @@ public class BarrierRaise : MonoBehaviour
         {
         Destroy(gameObject);
             coinSpawning.SetActive(true);
-            WinMessage.SetActive(true);
         }
     }
 }

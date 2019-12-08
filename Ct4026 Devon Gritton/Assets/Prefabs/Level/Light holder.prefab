@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 482962527}
   - component: {fileID: 482962526}
   - component: {fileID: 482962525}
-  - component: {fileID: 482962524}
+  - component: {fileID: 6807655784110853727}
   m_Layer: 0
   m_Name: Light Obj
   m_TagString: Untagged
@@ -92,7 +92,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &482962524
+--- !u!114 &6807655784110853727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 482962522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d840d269b5fb4fb4eaff35fcf26926e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e872df7278e25c4382c9f30cec20f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &555652375

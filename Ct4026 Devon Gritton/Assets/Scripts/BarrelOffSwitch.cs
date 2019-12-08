@@ -16,9 +16,7 @@ public class BarrelOffSwitch : MonoBehaviour
         {
             if (other.gameObject.tag == "Player")
             {
-                Barrels.SetActive(false);// disables the assigned gameobject so that when the player interacts with the plate
-                                        //It will disable the barrel spawner
-                
+                Barrels.SetActive(false);// disables the assigned gameobject so that when the player interacts with the plateIt will disable the barrel spawner
             }
         }
     }

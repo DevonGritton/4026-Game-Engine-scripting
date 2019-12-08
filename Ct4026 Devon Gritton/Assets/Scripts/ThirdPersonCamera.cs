@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
-    //This section defnes the variables for the code
     public float MouseSensitivity = 10;
     public float DistanceFromTarget = 2;
     public Transform target;
@@ -17,14 +16,6 @@ public class ThirdPersonCamera : MonoBehaviour
 
     float Horizontal;
     float Vertical;
-    // Start is called before the first frame update
-    void Start()
-    {
-       //Cursor.visible = false;
-        //Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    // Update is called once per frame
     //Late update is called after the other update positions to ensure the targets positions has been set
     void LateUpdate()
     {

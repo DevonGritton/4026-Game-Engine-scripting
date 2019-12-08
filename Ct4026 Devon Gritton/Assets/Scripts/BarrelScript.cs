@@ -9,7 +9,7 @@ public class BarrelScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 5.0f;
+        timer = 7.0f;
     }
     private void OnCollisionEnter(Collision other) // will call when the object collides with another
     {
@@ -21,7 +21,7 @@ public class BarrelScript : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             Instantiate(Effect, transform.position, transform.rotation);//activates the assigned particle effect
-            //HealthScript.health -= 2;//reduces the players health by 2 if they get hit by a barrel
+            HealthScript.health -= 2;//reduces the players health by 2 if they get hit by a barrel
             Destroy(gameObject);// destroys the barrel
         }
     }
