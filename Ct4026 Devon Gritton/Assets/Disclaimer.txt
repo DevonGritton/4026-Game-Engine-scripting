@@ -9,3 +9,9 @@ the lava materials
 and the character model itself are all free imports from the unity store
 I will provide links to each pack i used belwo and give credit to all programmers and designers where it is due
 
+Standard Assets (for Unity 2017.3)(used for the character model and controller scripts)
+ProBuilder 2.x (Used for building assets)
+ProGrids 2.x (used for position assets)
+Cracked stone filled with lava.(used for the material in the jump room floor)
+Unity Particle Pack 5.x(used for the particle effects of the barrels and the bomb)
+Free Sci-Fi Textures(used for materials throughout the level)
