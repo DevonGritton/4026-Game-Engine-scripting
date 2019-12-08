@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class ScoreScript : MonoBehaviour
+public class ScoreScript : MonoBehaviour// This script is designed to keep track of the amount of coins the player collects throughout the level
 {
     public static int scoreValue = 0;
     Text ScoreText;

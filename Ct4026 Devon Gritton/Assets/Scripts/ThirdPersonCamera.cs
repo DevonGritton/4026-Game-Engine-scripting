@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdPersonCamera : MonoBehaviour
+public class ThirdPersonCamera : MonoBehaviour//This script is designed to give a thridperson camera to the player
 {
+    
     public float MouseSensitivity = 10;
     public float DistanceFromTarget = 2;
     public Transform target;

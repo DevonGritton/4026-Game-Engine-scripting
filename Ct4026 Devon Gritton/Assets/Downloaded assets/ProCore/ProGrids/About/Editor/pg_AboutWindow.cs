@@ -187,8 +187,8 @@ public class pg_AboutWindow : EditorWindow
 
 		// With Unity 4 (on PC) if you have different values for minSize and maxSize,
 		// they do not apply restrictions to window size.
-		this.minSize = new Vector2(banner.width + 12, banner.height * 7);
-		this.maxSize = new Vector2(banner.width + 12, banner.height * 7);
+		//this.minSize = new Vector2(banner.width + 12, banner.height * 7);
+		//this.maxSize = new Vector2(banner.width + 12, banner.height * 7);
 	}
 
 	public void SetAboutEntryPath(string path)

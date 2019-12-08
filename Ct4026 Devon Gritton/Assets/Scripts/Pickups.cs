@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pickups : MonoBehaviour
+public class Pickups : MonoBehaviour // The purpose of this script is to allow the user to pickup both health and coins and apply slight rotational spin to them
 {
     bool coin = false;
     bool heart = false;
@@ -25,11 +25,11 @@ public class Pickups : MonoBehaviour
     {
         if (coin)
         {
-            transform.Rotate(new Vector3(Time.deltaTime * 0, 0, 10));// assigns a constant rotational spin to objects that have the tag coin which will turn the boolean coin to true.
+            transform.Rotate(new Vector3(Time.deltaTime * 0, 0, 1));// assigns a constant rotational spin to objects that have the tag coin which will turn the boolean coin to true.
         }
         if (heart)
         {
-            transform.Rotate(new Vector3(Time.deltaTime * 0, 10, 0));// assigns a constant rotational spin to objects that have the tag Health which will turn the boolean heart to true.
+            transform.Rotate(new Vector3(Time.deltaTime * 0, 1, 0));// assigns a constant rotational spin to objects that have the tag Health which will turn the boolean heart to true.
         }
     }
     private void OnTriggerEnter(Collider other)

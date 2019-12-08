@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveSettings : MonoBehaviour
+public class SaveSettings : MonoBehaviour// This script is meant to save the brightness settings and apply it to the current scene
 {
     float brightness;
     // Start is called before the first frame update

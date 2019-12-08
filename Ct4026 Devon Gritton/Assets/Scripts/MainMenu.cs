@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;// used to navigate between scenes
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour // This script is implemented to allow for the user to navigate through the main menu
 {
     // function defining the play button
     public void Play()

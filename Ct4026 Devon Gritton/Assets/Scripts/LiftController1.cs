@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LiftController1 : MonoBehaviour
+public class LiftController1 : MonoBehaviour// this section is designed to allow the lift object to go up and down with teh press of a button
 {
     public GameObject liftObject;
 

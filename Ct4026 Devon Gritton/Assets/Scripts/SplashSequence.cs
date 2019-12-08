@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; // allows for the use of functions to manage splash screens and menu
 
-public class SplashSequence : MonoBehaviour
+public class SplashSequence : MonoBehaviour//This script is designed to implment the 2 splash screens into the game
 {
     public static int SceneNo;
     // Start is called before the first frame update

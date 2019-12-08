@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarrelScript : MonoBehaviour
+public class BarrelScript : MonoBehaviour// this script defines when the barrel shall explode and how much damage it will do to the player when it collides with them
 {
     public GameObject Effect;
     public float timer;

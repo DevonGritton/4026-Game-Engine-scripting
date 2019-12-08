@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LavaScript : MonoBehaviour
+public class LavaScript : MonoBehaviour// this script is designed to severely damage the player if they fall in the lave in the game
 {
     public static bool lavaburn;
     // Start is called before the first frame update.

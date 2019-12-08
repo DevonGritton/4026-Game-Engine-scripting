@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; // used to navigate through the scenes
 
-public class DeathScript : MonoBehaviour
+public class DeathScript : MonoBehaviour // this is used to send the player to death screen if their helth reaches 0
 {
     // Update is called once per frame
     void Update()

@@ -41,11 +41,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 138132920463770272}
     m_Modifications:
-    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Name
-      value: Light holder (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2561750879936895396, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -101,41 +96,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924755, guid: cc56f811543cdd147964696e4f5a96b4,
+    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924847, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457394, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457390, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652380, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652376, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Range
-      value: 40
+      propertyPath: m_Name
+      value: Light holder (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
@@ -152,11 +116,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 138132920463770272}
     m_Modifications:
-    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Name
-      value: Light holder (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 2561750879936895396, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -212,41 +171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924755, guid: cc56f811543cdd147964696e4f5a96b4,
+    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924847, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457394, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457390, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652380, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652376, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Range
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 1
+      propertyPath: m_Name
+      value: Light holder (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
@@ -263,11 +191,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 138132920463770272}
     m_Modifications:
-    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Name
-      value: Light holder (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 2561750879936895396, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -323,41 +246,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924755, guid: cc56f811543cdd147964696e4f5a96b4,
+    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924847, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457394, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457390, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652380, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652376, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Range
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 1
+      propertyPath: m_Name
+      value: Light holder (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
@@ -374,11 +266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 138132920463770272}
     m_Modifications:
-    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Name
-      value: Light holder (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2561750879936895396, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -434,41 +321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924755, guid: cc56f811543cdd147964696e4f5a96b4,
+    - target: {fileID: 6064339333648173829, guid: cc56f811543cdd147964696e4f5a96b4,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484819918924847, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457394, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2028457390, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652380, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 555652376, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Range
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587484820858201888, guid: cc56f811543cdd147964696e4f5a96b4,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 1
+      propertyPath: m_Name
+      value: Light holder (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc56f811543cdd147964696e4f5a96b4, type: 3}

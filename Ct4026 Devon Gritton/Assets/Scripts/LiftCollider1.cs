@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LiftCollider1 : MonoBehaviour
+public class LiftCollider1 : MonoBehaviour// this script is intended to make objects travel with the lift at a smoother rate
 {
     private void OnTriggerEnter(Collider other)
     {

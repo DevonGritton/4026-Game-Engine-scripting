@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarrelOffSwitch : MonoBehaviour
+public class BarrelOffSwitch : MonoBehaviour// A script designed to turn off the barrel spawners 
 {
     public GameObject Barrels;
     // Start is called before the first frame update

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;// used to navigate across scenes
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu : MonoBehaviour//This script allows for the game to be paused by pressing escape and navigate back to the main menu if needed
 {
 
     public static bool GamePause = false;

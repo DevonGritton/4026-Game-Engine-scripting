@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthScript : MonoBehaviour
+public class HealthScript : MonoBehaviour// this scruipt is designed to keep track of player health in the HUD
 {
 
     Text HealthText;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightRoomScript : MonoBehaviour
+public class LightRoomScript : MonoBehaviour // this script is here to chaneg the colour of an assigned gameobjects light 
 {
     public Light ColoredLights;
     Color activated = Color.green;//assigns a variable that will store a colour chaneg to green for an assigned light 

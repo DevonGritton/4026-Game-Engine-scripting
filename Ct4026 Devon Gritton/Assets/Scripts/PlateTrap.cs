@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlateTrap : MonoBehaviour
+public class PlateTrap : MonoBehaviour //This script is designed to destroy other objects when a player enters the trigger
 {
     public GameObject Trap;
     public GameObject Trap2;

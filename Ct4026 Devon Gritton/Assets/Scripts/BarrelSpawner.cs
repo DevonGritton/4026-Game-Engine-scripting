@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarrelSpawner : MonoBehaviour
+public class BarrelSpawner : MonoBehaviour// this script is designed to spawn barrels at a set interval
 
 {
     [SerializeField]

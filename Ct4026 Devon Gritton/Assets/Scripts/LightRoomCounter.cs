@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightRoomCounter : MonoBehaviour
+public class LightRoomCounter : MonoBehaviour // this script is here to count the amount of times a light colour is changed in the lightRoomScript file and then once it's reached a certain value destroy a set of gaemobjects
 {
     public static int counter;
     public GameObject Latch1;

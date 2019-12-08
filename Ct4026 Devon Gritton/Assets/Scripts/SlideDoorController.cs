@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlideDoorController : MonoBehaviour
+public class SlideDoorController : MonoBehaviour// This script is designed to allow for the opening and closing of doors usinga button
 {
 
     // Start is called before the first frame update

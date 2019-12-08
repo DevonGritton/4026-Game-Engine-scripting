@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarrierRaise : MonoBehaviour
+public class BarrierRaise : MonoBehaviour// THis script is designed to raise a barrier and activate coin spawners when player enters it's trigger radius
 {
     public GameObject BarrierObject;
     public GameObject coinSpawning;

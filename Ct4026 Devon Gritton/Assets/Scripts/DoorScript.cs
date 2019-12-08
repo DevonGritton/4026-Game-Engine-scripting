@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorScript : MonoBehaviour
+public class DoorScript : MonoBehaviour //This is a scri0pt for an alternative door method used a trigger option and continous animation
 {
      Animator animator;
 
@@ -14,7 +14,7 @@ public class DoorScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        animator.SetTrigger("Open");//the open trigger in teh animation will be enabled
+        animator.SetTrigger("OpenDoor");//the open trigger in teh animation will be enabled
     }
     void OnTriggerExit(Collider other)
     {
