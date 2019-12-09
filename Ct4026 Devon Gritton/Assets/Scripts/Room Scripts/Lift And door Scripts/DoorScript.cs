@@ -14,14 +14,21 @@ public class DoorScript : MonoBehaviour //This is a scri0pt for an alternative d
 
     void OnTriggerEnter(Collider other)
     {
-        animator.SetTrigger("OpenDoor");//the open trigger in teh animation will be enabled
+        if (other.gameObject.tag == "Player")
+        {
+            animator.enabled = true;// enables the animation to allow the door to close when the player exits the trigger
+            animator.SetTrigger("OpenDoor");//the open trigger in the animation will be enabled
+        }
     }
     void OnTriggerExit(Collider other)
     {
-        animator.enabled = true;// enables the animation to allow the door to close when the player exits the trigger
+        if (other.gameObject.tag == "Player")
+        {
+            animator.enabled = true;// enables the animation to allow the door to close when the player exits the trigger
+        }
     }
     void pauseAnimationEvent()
     {
-        animator.enabled = false;// will pause the animation when a puase is called in the animation loop
+        animator.enabled = false;// will pause the animation when a pause is called in the animation loop
     }
 }
