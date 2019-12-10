@@ -18,8 +18,8 @@ public class SlideDoorController : MonoBehaviour// This script is designed to al
 
     void OnMouseDown()
     {
-        DoorIsUp = !DoorIsUp;
-        DoorObject.GetComponent<Animator>().SetBool("DoorIsUp", DoorIsUp);
+        DoorIsUp = !DoorIsUp;// sets the variable to its opposite value
+        DoorObject.GetComponent<Animator>().SetBool("DoorIsUp", DoorIsUp);// assigns the value for the variable as the value for the animator boolean
     }
 
     void OnMouseExit()
