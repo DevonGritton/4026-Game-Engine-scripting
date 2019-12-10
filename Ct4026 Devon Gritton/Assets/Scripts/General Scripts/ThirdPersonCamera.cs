@@ -9,7 +9,7 @@ public class ThirdPersonCamera : MonoBehaviour//This script is designed to give 
     public float DistanceFromTarget = 2;
     public Transform target;
     // called as a vector2 as there are only 2 directions this method concerns up/down
-    public Vector2 verticalMinMax = new Vector2(-40, 85);
+    public Vector2 verticalMinMax = new Vector2(-40, 85);// Defines the maximum rotation angles for the camera
 
     public float RotationSmoothTime = 0.10f;
     Vector3 RotationSmoothVelocity;
